@@ -5,10 +5,14 @@
     <a href="/storage/my">내 폴더</a>
     <a href="/storage/shared">공용 폴더</a>
     <a href="/storage/recycles">휴지통</a>
-    <a href="/login">로그인</a>
-    <a href="/logout">로그아웃</a>
+    <a href="/logout" v-if="isLoggedIn">로그아웃</a>
+    <a href="/login" v-else>로그인</a>
 
     <button>FOLDER</button>
     <button>Upload</button>
   </div>
 </template>
+<script setup lang="ts">
+import { getUserInfo } from "../../states/localStorage/userLoginStore";
+const isLoggedIn = !!getUserInfo().userId;
+</script>

@@ -1,13 +1,20 @@
 <script lang="ts">
-import { Form, Field } from "vee-validate";
+import { Form, Field, FormContext } from "vee-validate";
+import { useAxios } from "../controllers/api/useAxios";
+import { logIn } from "../states/localStorage/userLoginStore";
+const axios = useAxios();
 export default {
   components: {
     Form,
     Field,
   },
   methods: {
-    onSubmit(values) {
-      console.log(values);
+    async onSubmit(values: FormContext["values"]) {
+      const result = await axios.post("/login", values);
+      if (result?.data?.success) {
+        logIn(result?.data?.json);
+      }
+      this.$router.push("/");
     },
   },
 };
