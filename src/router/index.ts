@@ -4,7 +4,7 @@ import LoginVue from '../views/Login.vue'
 import Signup from '../views/Signup.vue'
 import StorageExplorer from '../views/storage/StorageExplorer.vue'
 import SharedStorage from '../views/storage/Shared.vue'
-import RecyclesStorage from '../views/storage/Recycles.vue'
+import TrashBinStorage from '../views/storage/TrashBin.vue'
 import MyStorage from '../views/storage/My.vue'
 import { getUserInfo } from '../states/localStorage/userLoginStore'
 import LogoutVue from '../views/Logout.vue'
@@ -52,8 +52,8 @@ const routes: Array<RouteRecordRaw> =
         },
         {
             path: '/storage/recycles',
-            name: 'RecyclesStorage',
-            component: RecyclesStorage,
+            name: 'TrashBinStorage',
+            component: TrashBinStorage,
             meta: { requiresAuth: true }
         },
         {
