@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import LoginVue from '../views/Login.vue'
 import Signup from '../views/Signup.vue'
 import StorageExplorer from '../views/storage/StorageExplorer.vue'
+import SampleStorate from '../views/storage/Sample.vue'
 import SharedStorage from '../views/storage/Shared.vue'
 import TrashBinStorage from '../views/storage/TrashBin.vue'
 import MyStorage from '../views/storage/My.vue'
@@ -36,6 +37,12 @@ const routes: Array<RouteRecordRaw> =
             path: '/storage',
             name: 'StorageExplorer',
             component: StorageExplorer,
+            meta: { requiresAuth: true }
+        },
+        {
+            path: '/storage/sample',
+            name: 'SampleStorage',
+            component: SampleStorate,
             meta: { requiresAuth: true }
         },
         {
