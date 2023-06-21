@@ -6,6 +6,6 @@
       <div>010-8877-0595</div>
       <div>wpf@kakao.com</div>
     </div>
-    <div class="flex items-center">sides</div>
+    <div class="flex items-center">External Links</div>
   </footer>
 </template>

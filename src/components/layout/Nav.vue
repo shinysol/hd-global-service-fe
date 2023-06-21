@@ -2,6 +2,7 @@
   <div class="flex gap-2 items-center [&>a:not(:hover)]:text-white">
     <!-- 버튼 영역-->
     <!-- <a href="/storage">템플릿</a> -->
+    <input class="w-48 rounded-full px-2 ring-blue-200 ring" />
     <a href="/storage/sample">스토리지샘플</a>
     <a href="/logout" v-if="isLoggedIn">로그아웃</a>
     <a href="/login" v-else>로그인</a>

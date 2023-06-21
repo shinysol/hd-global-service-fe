@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center h-full gap-3 p-4">
+  <div class="flex flex-col items-center h-full gap-3 py-4">
     <div class="grid xl:grid-cols-4 md:grid-cols-2 gap-5 max-w-[1240px]">
       <Card>
         <CardHeader>나의소개</CardHeader>
@@ -34,6 +34,9 @@
             <li>청명고등학교 졸업</li>
             <li>청명중학교 졸업</li>
             <li>영화초등학교 졸업</li>
+            <li>연화유치원 졸업</li>
+            <hr />
+            <li>Udemy holic</li>
           </ul>
         </CardContent>
         <CardFooter>
@@ -69,23 +72,90 @@
       <Card>
         <CardHeader>Tech Stack</CardHeader>
         <CardContent>
-          <ul class="font-light text-sm">
-            <li>
-              <div>Node.js</div>
-              <ul>
-                <li>React</li>
-                <li>NEXT.js</li>
-                <li>Tailwind CSS, SCs</li>
-              </ul>
-            </li>
-            <ul></ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+          <div class="grid grid-cols-2">
+            <ul class="font-light text-sm">
+              <li>
+                <div>Dev</div>
+                <ul>
+                  <li>
+                    <div>
+                      Node.js
+                      <span
+                        class="rounded-md px-1 py-0.5 bg-blue-500 text-white text-[0.4rem]"
+                        >Typescript</span
+                      >
+                    </div>
+                    <ul>
+                      <li>
+                        <div>FE</div>
+                        <ul>
+                          <li>React</li>
+                          <li>NEXT.js</li>
+                          <li>Vue.js</li>
+                          <li>Tailwind CSS, SCs</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <div>BE</div>
+                        <ul>
+                          <li>Express</li>
+                          <li>Fastify</li>
+                          <li>Sequelize</li>
+                          <li>Prisma</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div>.net</div>
+                    <ul>
+                      <li>WinForms</li>
+                      <li>WPF</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div>PHP</div>
+                  </li>
+                  <li>
+                    <div>jQuery</div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="font-light text-sm">
+              <li>
+                <div>DB</div>
+                <ul>
+                  <li>SQL Server</li>
+                  <li>PostgreSQL</li>
+                  <li>Mongo DB</li>
+                </ul>
+              </li>
+              <li>
+                <div>Cloud</div>
+                <ul>
+                  <li>
+                    <div>AWS</div>
+                    <ul>
+                      <li>EC2</li>
+                      <li>S3</li>
+                      <li>Amplify</li>
+                      <li>Lambda</li>
+                    </ul>
+                  </li>
+                  <li>KT Cloud</li>
+                </ul>
+              </li>
+              <li>
+                <div>OS</div>
+                <ul>
+                  <li>Windows</li>
+                  <li>Ubuntu</li>
+                  <li>CentOS</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </CardContent>
         <CardFooter>
           <div class="text-gray-600 font-extralight">
@@ -104,7 +174,7 @@
                 <li>수입자동차 통관 프로그램</li>
                 <li>수입자동차 개소세 환급 웹사이트</li>
                 <li>확정가격(4방법) 산출 프로그램</li>
-                <li>수입 인보이스 OCR</li>
+                <li>수입 인보이스 OCR/Parsing</li>
                 <li>MY 화물조회 서비스</li>
                 <li>H사 통관정산 프로그램</li>
                 <li>TCMS 웹</li>
