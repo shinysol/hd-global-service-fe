@@ -31,10 +31,11 @@ li > ul > li {
   font-size: .92em;
 }
 main {
-  width: 100dvw;
-  min-width: 100dvw;
-  height: 100vh;
-  min-height: 100vh;
+  width: 100svw;
+  min-width: 100svw;
+  height: 100dvh;
+  min-height: 100dvh;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
