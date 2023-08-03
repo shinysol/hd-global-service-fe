@@ -25,24 +25,15 @@
         </CardFooter>
       </Card>
       <Card>
-        <CardHeader>Education</CardHeader>
+        <CardHeader>Good at</CardHeader>
         <CardContent>
           <ul class="font-light text-sm">
-            <li>한국방송통신대학교 컴퓨터과학과 수료</li>
-            <li>한국방송통신대학교 경제학과 학사(졸업)</li>
-            <li>성균관대학교 수학교육과 학사(졸업)</li>
-            <li>청명고등학교 졸업</li>
-            <li>청명중학교 졸업</li>
-            <li>영화초등학교 졸업</li>
-            <li>연화유치원 졸업</li>
-            <hr />
-            <li>Udemy holic</li>
+            <li>PDF Text Extract and Parse</li>
+            <li>Document OCR</li>
           </ul>
         </CardContent>
         <CardFooter>
-          <div class="text-gray-600 font-extralight">
-            배움 그 자체도 좋습니다.
-          </div>
+          <div class="text-gray-600 font-extralight">이런 것들을 잘합니다.</div>
         </CardFooter>
       </Card>
       <Card>
@@ -191,6 +182,27 @@
         <CardFooter>
           <div class="text-gray-600 font-extralight">
             오늘도 뭔가를 만들고 있어요.
+          </div>
+        </CardFooter>
+      </Card>
+      <Card>
+        <CardHeader>Education</CardHeader>
+        <CardContent>
+          <ul class="font-light text-sm">
+            <li>한국방송통신대학교 컴퓨터과학과 수료</li>
+            <li>한국방송통신대학교 경제학과 학사(졸업)</li>
+            <li>성균관대학교 수학교육과 학사(졸업)</li>
+            <li>청명고등학교 졸업</li>
+            <li>청명중학교 졸업</li>
+            <li>영화초등학교 졸업</li>
+            <li>연화유치원 졸업</li>
+            <hr />
+            <li>Udemy holic</li>
+          </ul>
+        </CardContent>
+        <CardFooter>
+          <div class="text-gray-600 font-extralight">
+            배움 그 자체도 좋습니다.
           </div>
         </CardFooter>
       </Card>
