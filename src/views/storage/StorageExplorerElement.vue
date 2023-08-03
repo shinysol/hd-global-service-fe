@@ -26,7 +26,6 @@
   </div>
 </template>
 <script setup lang="ts">
-import { defineProps } from "vue";
 import dayjs from "dayjs";
 import { formatBytes } from "../../../utils/conversion/formatByte";
 defineProps({
